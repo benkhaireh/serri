@@ -4,6 +4,8 @@
 /public/storage
 /storage/*.key
 /vendor
+composer-lock.josn
+package-lock.josn
 .env
 .env.backup
 .env.production
