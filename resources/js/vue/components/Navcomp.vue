@@ -12,7 +12,7 @@
                     alt="Flowbite Logo"
                 />
             </a>
-            <div class="flex items-center">
+            <div class="flex items-center" v-click-away="hidenav">
                 <div class="flex md:order-2">
                     <button
                         type="button"
@@ -21,11 +21,9 @@
                     Parlez à un conseiller
                     </button>
                     <button
-                        data-collapse-toggle="navbar-sticky"
+                        @click="sticknav"
                         type="button"
                         class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200"
-                        aria-controls="navbar-sticky"
-                        aria-expanded="false"
                     >
                         <span class="sr-only">Open main menu</span>
                         <svg
@@ -73,6 +71,36 @@
                         </li>
                     </ul>
                 </div>
+                <div
+                    class="absolute top-12 items-center justify-between w-full md:flex md:w-auto md:order-1 md:mr-8"
+                    v-if="navbarsticky"
+                >
+                    <ul
+                        class="flex flex-col p-4 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white"
+                    >
+                        <li>
+                            <a
+                                href="#"
+                                class="block py-2 pl-3 pr-4 bold text-gray-700 rounded hover:bg-green-700 focus:bg-green-700 md:hover:bg-transparent md:hover:text-green-700 md:p-0 hover:text-white focus:text-white md:focus:text-green-700 border-gray-700"
+                                >À Propos</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                class="block py-2 pl-3 pr-4 bold text-gray-700 rounded hover:bg-green-700 focus:bg-green-700 md:hover:bg-transparent md:hover:text-green-700 md:p-0 hover:text-white focus:text-white md:focus:text-green-700 border-gray-700"
+                                >Nos Services</a
+                            >
+                        </li>
+                        <li>
+                            <a
+                                href="#"
+                                class="block py-2 pl-3 pr-4 bold text-gray-700 rounded hover:bg-green-700 focus:bg-green-700 md:hover:bg-transparent md:hover:text-green-700 md:p-0 hover:text-white focus:text-white md:focus:text-green-700 border-gray-700"
+                                >Notre Boutique</a
+                            >
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </nav>
@@ -80,5 +108,18 @@
 <script>
 export default {
     name: "navcomp",
+    data() {
+        return {
+            navbarsticky: false
+        }
+    },
+    methods: {
+        sticknav: function() {
+            this.navbarsticky = !this.navbarsticky;
+        },
+        hidenav: function() {
+            this.navbarsticky = false
+        }
+    },
 };
 </script>
