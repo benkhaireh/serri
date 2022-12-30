@@ -35,12 +35,6 @@
     box-sizing: border-box;
 }
 
-html,
-body {
-    overflow-x: hidden;
-    font-size: 95%;
-}
-
 @media (min-width: 1280px) {
     body {
         font-size: 115%;
