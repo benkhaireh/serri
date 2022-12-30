@@ -1,0 +1,242 @@
+@font-face {
+    font-family: "SFPRO-semibold";
+    src: url("../fonts/SFPro-Semibold.ttf");
+}
+
+@font-face {
+    font-family: "SFPRO-semibold-italic";
+    src: url("../fonts/SFPro-SemiboldItalic.ttf");
+}
+
+@font-face {
+    font-family: "SFPRO-bold";
+    src: url("../fonts/SFPro-Bold.ttf");
+}
+
+@font-face {
+    font-family: "SFPRO-bold-italic";
+    src: url("../fonts/SFPro-BoldItalic.ttf");
+}
+
+@font-face {
+    font-family: "SFPRO-medium";
+    src: url("../fonts/SFPro-Medium.ttf");
+}
+
+@font-face {
+    font-family: "SFPRO-medium-italic";
+    src: url("../fonts/SFPro-MediumItalic.ttf");
+}
+
+*,
+*::before,
+*::after {
+    transition: all 0.25s;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    overflow-x: hidden;
+    font-size: 95%;
+}
+
+@media (min-width: 1280px) {
+    body {
+        font-size: 115%;
+    }
+}
+
+body {
+    font-family: "SFPRO-semibold";
+}
+
+th {
+    padding: .5rem .75rem;
+    text-align: center;
+}
+
+td {
+    display: table-cell;
+    border-bottom-width: 0px;
+    padding: .5rem .75rem;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.semibold {
+    font-family: "SFPRO-semibold";
+}
+
+.bold {
+    font-family: "SFPRO-bold";
+}
+
+.medium {
+    font-family: "SFPRO-medium";
+}
+
+.semibold-italic {
+    font-family: "SFPRO-semibold-italic";
+}
+
+.bold-italic {
+    font-family: "SFPRO-bold-italic";
+}
+
+.medium-italic {
+    font-family: "SFPRO-medium-italic";
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+input[type="file"]::-webkit-file-upload-button,
+input[type="file"]::file-selector-button {
+    color: #fff;
+    background-color: rgb(55 65 81);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    cursor: pointer;
+    border-width: 0px;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    padding-left: 2rem;
+    padding-right: 1rem;
+    margin-inline-start: -1rem;
+    margin-inline-end: 1rem;
+}
+
+input:focus {
+    box-shadow: none;
+}
+
+input[type="file"]:hover::-webkit-file-upload-button,
+input[type="file"]:hover::file-selector-button {
+    background-color: rgb(75 85 99);
+}
+
+button:not[disabled],
+a[role="card"],
+a[role="button"] {
+    transition: all 0.06s;
+}
+
+button:not[disabled]:active,
+label:active,
+a[role="button"]:not[disabled]:active {
+    transform: scale(0.95);
+}
+
+.backdrop {
+    background-color: rgba(0, 0, 0, 0.45);
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+}
+
+.lds-ripple {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-ripple div {
+    position: absolute;
+    border: 4px solid rgb(129,0,129);
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+}
+
+.lds-ripple div:nth-child(2) {
+    animation-delay: -0.5s;
+}
+
+@keyframes lds-ripple {
+    0% {
+        top: 36px;
+        left: 36px;
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+        width: 72px;
+        height: 72px;
+        opacity: 0;
+    }
+}
+
+.container {
+    width: 100%;
+}
+
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+@media (min-width: 576px) {
+    .container-sm, .container {
+        max-width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container-md, .container-sm, .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container-lg, .container-md, .container-sm, .container {
+        max-width: 960px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1140px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+        max-width: 1320px;
+    }
+}
+
+.header {
+    height: 100vh;
+}
