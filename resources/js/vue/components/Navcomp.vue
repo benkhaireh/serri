@@ -14,7 +14,7 @@
             </a>
             <div class="flex items-center" v-click-away="hidenav">
                 <div class="flex md:order-2">
-                    <a href="#" class="px-[1.5rem] py-[0.5rem] border-2 border-[#39b54a] bg-[#39b54a] rounded-[3.5625rem] text-white text-xs font-[600] hover:bg-green-700 focus:bg-green-700 hover:border-green-700 focus:border-green-700">Talk to a Consultant</a>
+                    <button type="button" class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-3 md:mr-0">Demander un devis</button>
                     <button
                         @click="sticknav"
                         type="button"
@@ -61,7 +61,7 @@
                             <a
                                 href="#"
                                 class="block py-2 pl-3 pr-4 bold text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-green-700 md:p-0 hover:text-white border-gray-700"
-                                >Notre Boutique</a
+                                >Nos Produits</a
                             >
                         </li>
                     </ul>
@@ -91,7 +91,7 @@
                             <a
                                 href="#"
                                 class="block py-2 pl-3 pr-4 bold text-gray-700 rounded hover:bg-green-700 focus:bg-green-700 md:hover:bg-transparent md:hover:text-green-700 md:p-0 hover:text-white focus:text-white md:focus:text-green-700 border-gray-700"
-                                >Notre Boutique</a
+                                >Nos Produits</a
                             >
                         </li>
                     </ul>
