@@ -117,7 +117,7 @@
                                         </div>
                                         <h6 class="text-xl mb-1 font-semibold">
                                             Mise en place l'irrigation
-                                            Automatique
+                                            automatique
                                         </h6>
                                         <p class="mb-4 text-blueGray-500">
                                             Nous installons des Kits
@@ -183,10 +183,9 @@
                                     </div>
                                     <div>
                                         <h4
-                                            class="text-slate-500 whitespace-nowrap"
+                                            class="text-slate-500"
                                         >
-                                            Apporter des solutions-Tech faciles
-                                            aux agriculteur
+                                            Apporter des solutions-Tech aux agriculteur
                                         </h4>
                                     </div>
                                 </div>
