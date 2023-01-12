@@ -50,39 +50,31 @@
                         >
                             <span
                                 class="block uppercase text-slate-500 text-sm font-semibold mb-2"
-                                >Useful Links</span
+                                >Liens Utiles</span
                             >
                             <ul class="list-unstyled">
                                 <li>
                                     <a
                                         class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
-                                        href="https://www.creative-tim.com/presentation"
+                                        href="#"
                                         target="_blank"
-                                        >About Us</a
+                                        >À Propos</a
                                     >
                                 </li>
                                 <li>
                                     <a
                                         class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
-                                        href="https://creative-tim.com/blog"
+                                        href="#"
                                         target="_blank"
-                                        >Blog</a
+                                        >Nos Services</a
                                     >
                                 </li>
                                 <li>
                                     <a
                                         class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
-                                        href="https://www.github.com/creativetimofficial/tailwind-starter-kit"
+                                        href="#"
                                         target="_blank"
-                                        >Github</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                        class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
-                                        href="https://www.creative-tim.com/bootstrap-themes/free"
-                                        target="_blank"
-                                        >Free Products</a
+                                        >Nos Produits</a
                                     >
                                 </li>
                             </ul>
@@ -91,40 +83,24 @@
                             class="w-full md:w-6/12 xl:w-4/12 pt-6 md:pt-0 md:px-4 ml-auto"
                         >
                             <span
-                                class="block uppercase text-slate-500 text-sm font-semibold mb-2"
-                                >Other Resources</span
+                                class="block uppercase text-slate-500 text-sm font-semibold mb-2 whitespace-nowrap"
+                                >Autres Ressources</span
                             >
                             <ul class="list-unstyled">
                                 <li>
                                     <a
-                                        class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
-                                        href="https://github.com/creativetimofficial/tailwind-starter-kit/blob/master/LICENSE.md"
+                                        class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm whitespace-nowrap"
+                                        href="#"
                                         target="_blank"
-                                        >MIT License</a
+                                        >Politique De Confidentialité</a
                                     >
                                 </li>
                                 <li>
                                     <a
                                         class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
-                                        href="https://creative-tim.com/terms"
+                                        href="#"
                                         target="_blank"
-                                        >Terms &amp; Conditions</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                        class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
-                                        href="https://creative-tim.com/privacy"
-                                        target="_blank"
-                                        >Privacy Policy</a
-                                    >
-                                </li>
-                                <li>
-                                    <a
-                                        class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
-                                        href="https://creative-tim.com/contact-us"
-                                        target="_blank"
-                                        >Contact Us</a
+                                        >Nous Contacter</a
                                     >
                                 </li>
                             </ul>
