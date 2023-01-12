@@ -7,15 +7,11 @@
                         <h1
                             class="font-[900] text-[3rem] leading-[1] mb-[1rem]"
                         >
-                            Planter en securité
-                            <span class="text-[#39b54a]">Avec nous</span>
+                            Planter
+                            <span class="text-[#39b54a]">En Securité</span>
                         </h1>
                         <p class="font-[500] mb-[2rem]">
-                            Nous innovons dans le secteur agricole pour que vous
-                            pouvez planter en quantité et qualité. Nous vous
-                            aidons à travailler intelligemment avec les
-                            nouvelles technologies pour les serres agricole et
-                            l'irrigation.
+                            Grâce aux conseils d'experts dans Serri et à nos solutions technologies, les agriculteurs peuvent s'attendre à voir des améliorations significatives dans leurs opérations agricoles.
                         </p>
                         <div class="flex items-center">
                             <button
@@ -73,10 +69,10 @@
                                             ></i>
                                         </div>
                                         <h6 class="text-xl mb-1 font-semibold">
-                                            Construction de votre serre
+                                            Construction de serre
                                         </h6>
                                         <p class="mb-4 text-blueGray-500">
-                                            Nous agencons votre serre en filet
+                                            Serri agence votre serre en filet
                                             et en polycarbonate selon vos
                                             spécification.
                                         </p>
@@ -99,7 +95,7 @@
                                         <p class="mb-4 text-blueGray-500">
                                             Pour automatiser le remplissage
                                             automatique du réservoi
-                                            d'irrigation, nous mettons en place
+                                            d'irrigation, Serri met en place
                                             des flotteurs
                                         </p>
                                     </div>
@@ -116,11 +112,11 @@
                                             ></i>
                                         </div>
                                         <h6 class="text-xl mb-1 font-semibold">
-                                            Mise en place l'irrigation
+                                            L'irrigation
                                             automatique
                                         </h6>
                                         <p class="mb-4 text-blueGray-500">
-                                            Nous installons des Kits
+                                            Serri installe des Kits
                                             d'irrigation automatique complète
                                             sur mesure de 50m2 ,100m2 à 200m2.
                                         </p>
@@ -136,10 +132,10 @@
                                             ></i>
                                         </div>
                                         <h6 class="text-xl mb-1 font-semibold">
-                                            Gestion du climat du serre
+                                            Gestion du climat
                                         </h6>
                                         <p class="mb-4 text-blueGray-500">
-                                            Nous vous donnons la possibilité de
+                                            Serri vous donne la possibilité de
                                             gérer le climat de votre serre avec
                                             suivi via une application
                                         </p>
@@ -161,14 +157,10 @@
                             <i class="ri-rocket-fill text-xl"></i>
                         </div>
                         <h3 class="text-3xl font-semibold">
-                            Une entreprise en expansion
+                            Révolutionner l'agriculture
                         </h3>
                         <p class="mt-4 text-lg leading-relaxed text-slate-500">
-                            Spécialisée dans les services agricole, Serri
-                            propose l'installation des serres en filet et
-                            polythène, installation d'arrosage automatique et
-                            ventes des produits/équipements utiles aux
-                            agriculteurs.
+                            Nous ouvrons la voie à l'agriculture durable grâce à des solutions agtech avancées. Des outils d'agriculture de précision aux logiciels d'analyse de données, pour accroître leur efficacité et leurs bénéfices tout en réduisant leur impact environnemental.
                         </p>
                         <ul class="list-none mt-6">
                             <li class="py-2">
@@ -182,10 +174,9 @@
                                         ></span>
                                     </div>
                                     <div>
-                                        <h4
-                                            class="text-slate-500"
-                                        >
-                                            Apporter des solutions-Tech aux agriculteur
+                                        <h4 class="text-slate-500">
+                                            Apporter des solutions-Tech aux
+                                            agriculteur
                                         </h4>
                                     </div>
                                 </div>
@@ -259,20 +250,18 @@
                 <div class="flex flex-wrap text-center justify-center">
                     <div class="w-full lg:w-6/12 px-4">
                         <h2 class="text-4xl font-semibold text-white">
-                            Bâtir une agriculture innovante
+                            Renforcer l'agriculture pour un avenir durable
                         </h2>
                         <p
                             class="text-sm leading-relaxed mt-4 mb-4 text-slate-400"
                         >
-                            D'ici à 2050, la demande de nourriture augmentera de
-                            70 %, parallèlement à la croissance rapide de la
-                            population. Une étude des Nations unies a révélé
-                            qu'environ 9,9 % de la population mondiale souffre
-                            encore de la faim, de sorte que l'idée de nourrir
-                            près de 10 milliards de bouches est une perspective
-                            intimidante. Les changements environnementaux étant
-                            difficiles à prévoir, nous devons nous tourner vers
-                            l'innovation en matière de technologie agricole.
+                            Nous nous engageons à aider les agriculteurs à accroître leur
+                            efficacité et leurs bénéfices tout en réduisant leur
+                            impact environnemental. Grâce à des technologies
+                            innovantes et à nos conseils d'experts, nous sommes
+                            convaincus que nous pouvons aider nos clients à
+                            atteindre leurs objectifs et à assurer un avenir
+                            durable à l'agriculture.
                         </p>
                     </div>
                 </div>
@@ -286,7 +275,7 @@
                                 style="max-width: 120px"
                             />
                             <div class="pt-6 text-center">
-                                <h5 class="text-xl font-bold">Habon A. Abdi</h5>
+                                <h5 class="text-xl font-bold text-slate-200">Habon A. Abdi</h5>
                                 <p
                                     class="mt-1 text-sm text-slate-400 uppercase font-semibold"
                                 >
@@ -304,7 +293,7 @@
                                 style="max-width: 120px"
                             />
                             <div class="pt-6 text-center">
-                                <h5 class="text-xl font-bold">
+                                <h5 class="text-xl font-bold text-slate-200">
                                     Moussa A. Dabar
                                 </h5>
                                 <p
@@ -324,7 +313,7 @@
                                 style="max-width: 120px"
                             />
                             <div class="pt-6 text-center">
-                                <h5 class="text-xl font-bold">Saredo</h5>
+                                <h5 class="text-xl font-bold text-slate-200">Saredo</h5>
                                 <p
                                     class="mt-1 text-sm text-slate-400 uppercase font-semibold"
                                 >
