@@ -282,7 +282,7 @@
                         <div class="px-6">
                             <img
                                 alt="..."
-                                src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-1-800x800.jpg"
+                                src="https://avataaars.io/?avatarStyle=Transparent&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light"
                                 class="shadow-lg rounded-full max-w-full mx-auto"
                                 style="max-width: 120px"
                             />
@@ -300,7 +300,7 @@
                         <div class="px-6">
                             <img
                                 alt="..."
-                                src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-2-800x800.jpg"
+                                src="https://avataaars.io/?avatarStyle=Transparent&topType=ShortHairTheCaesar&accessoriesType=Blank&hairColor=Black&facialHairType=Blank&clotheType=ShirtVNeck&clotheColor=Black&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
                                 class="shadow-lg rounded-full max-w-full mx-auto"
                                 style="max-width: 120px"
                             />
@@ -320,7 +320,7 @@
                         <div class="px-6">
                             <img
                                 alt="..."
-                                src="https://www.creative-tim.com/learning-lab/tailwind-starter-kit/img/team-3-800x800.jpg"
+                                src="https://avataaars.io/?avatarStyle=Transparent&topType=Hijab&accessoriesType=Blank&hatColor=Blue03&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Brown"
                                 class="shadow-lg rounded-full max-w-full mx-auto"
                                 style="max-width: 120px"
                             />
