@@ -114,8 +114,7 @@
             >
                 <div class="w-full md:w-4/12 px-4 mx-auto text-center">
                     <div class="text-sm text-slate-500 font-semibold py-1">
-                        © Serri
-                        <!-- -->2023<!-- -->                     
+                        Copyright © 2023 SERRI                    
                     </div>
                 </div>
             </div>
