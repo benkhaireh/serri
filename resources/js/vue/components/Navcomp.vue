@@ -9,7 +9,6 @@
                 <img
                     src="/imgs/logo.png"
                     class="h-12 mr-3 sm:h-14"
-                    alt="Flowbite Logo"
                 />
             </a>
             <div class="flex items-center" v-click-away="hidenav">
