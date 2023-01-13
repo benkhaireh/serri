@@ -235,7 +235,7 @@
         </section>
         <section class="pb-20 relative block bg-green-800">
             <div
-                class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
+                class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-16"
                 style="height: 80px"
             >
                 <svg
