@@ -29,13 +29,13 @@
                     </h5>
                     <div class="mt-6">
                         <a
-                            href="https://www.twitter.com/creativetim"
+                            href="#"
                             target="_blank"
                             ><i
                                 class="ri-twitter-fill bg-white text-sky-400 shadow-lg font-lg px-3 py-2 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"
                             ></i></a
                         ><a
-                            href="https://www.facebook.com/creativetim"
+                            href="#"
                             target="_blank"
                             ><i
                                 class="ri-facebook-box-fill bg-white text-sky-600 shadow-lg font-lg px-3 py-2 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"
