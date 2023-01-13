@@ -11,7 +11,10 @@
                             <span class="text-[#39b54a]">En Securité</span>
                         </h1>
                         <p class="font-[500] mb-[2rem]">
-                            Grâce aux conseils de nos experts et à nos solutions technologies, les agriculteurs peuvent s'attendre à voir des améliorations significatives dans leurs opérations agricoles.
+                            Grâce aux conseils de nos experts et à nos solutions
+                            technologies, les agriculteurs peuvent s'attendre à
+                            voir des améliorations significatives dans leurs
+                            opérations agricoles.
                         </p>
                         <div class="flex items-center">
                             <button
@@ -72,8 +75,8 @@
                                             Construction de serre
                                         </h6>
                                         <p class="mb-4 text-blueGray-500">
-                                            Serri agence votre serre en filet
-                                            et en polycarbonate selon vos
+                                            Serri agence votre serre en filet et
+                                            en polycarbonate selon vos
                                             spécification.
                                         </p>
                                     </div>
@@ -95,8 +98,8 @@
                                         <p class="mb-4 text-blueGray-500">
                                             Pour automatiser le remplissage
                                             automatique du réservoi
-                                            d'irrigation, Serri met en place
-                                            des flotteurs
+                                            d'irrigation, Serri met en place des
+                                            flotteurs
                                         </p>
                                     </div>
                                 </div>
@@ -112,13 +115,12 @@
                                             ></i>
                                         </div>
                                         <h6 class="text-xl mb-1 font-semibold">
-                                            L'irrigation
-                                            automatique
+                                            L'irrigation automatique
                                         </h6>
                                         <p class="mb-4 text-blueGray-500">
-                                            Serri installe des Kits
-                                            d'irrigation automatique complète
-                                            sur mesure de 50m2 ,100m2 à 200m2.
+                                            Serri installe des Kits d'irrigation
+                                            automatique complète sur mesure de
+                                            50m2 ,100m2 à 200m2.
                                         </p>
                                     </div>
                                 </div>
@@ -160,7 +162,12 @@
                             Révolutionner l'agriculture
                         </h3>
                         <p class="mt-4 text-lg leading-relaxed text-slate-500">
-                            Nous ouvrons la voie à l'agriculture durable grâce à des solutions agtech avancées. Des outils d'agriculture de précision aux logiciels d'analyse de données, pour accroître leur efficacité et leurs bénéfices tout en réduisant leur impact environnemental.
+                            Nous ouvrons la voie à l'agriculture durable grâce à
+                            des solutions agtech avancées. Des outils
+                            d'agriculture de précision aux logiciels d'analyse
+                            de données, pour accroître leur efficacité et leurs
+                            bénéfices tout en réduisant leur impact
+                            environnemental.
                         </p>
                         <ul class="list-none mt-6">
                             <li class="py-2">
@@ -255,13 +262,13 @@
                         <p
                             class="text-sm leading-relaxed mt-4 mb-4 text-slate-400"
                         >
-                            Nous nous engageons à aider les agriculteurs à accroître leur
-                            efficacité et leurs bénéfices tout en réduisant leur
-                            impact environnemental. Grâce à des technologies
-                            innovantes et à nos conseils d'experts, nous sommes
-                            convaincus que nous pouvons aider nos clients à
-                            atteindre leurs objectifs et à assurer un avenir
-                            durable à l'agriculture.
+                            Nous nous engageons à aider les agriculteurs à
+                            accroître leur efficacité et leurs bénéfices tout en
+                            réduisant leur impact environnemental. Grâce à des
+                            technologies innovantes et à nos conseils d'experts,
+                            nous sommes convaincus que nous pouvons aider nos
+                            clients à atteindre leurs objectifs et à assurer un
+                            avenir durable à l'agriculture.
                         </p>
                     </div>
                 </div>
@@ -275,7 +282,9 @@
                                 style="max-width: 120px"
                             />
                             <div class="pt-6 text-center">
-                                <h5 class="text-xl font-bold text-slate-200">Habon A. Abdi</h5>
+                                <h5 class="text-xl font-bold text-slate-200">
+                                    Habon A. Abdi
+                                </h5>
                                 <p
                                     class="mt-1 text-sm text-slate-400 uppercase font-semibold"
                                 >
@@ -313,7 +322,9 @@
                                 style="max-width: 120px"
                             />
                             <div class="pt-6 text-center">
-                                <h5 class="text-xl font-bold text-slate-200">Saredo</h5>
+                                <h5 class="text-xl font-bold text-slate-200">
+                                    Saredo
+                                </h5>
                                 <p
                                     class="mt-1 text-sm text-slate-400 uppercase font-semibold"
                                 >
