@@ -11,7 +11,7 @@
                             <span class="text-[#39b54a]">En Securité</span>
                         </h1>
                         <p class="font-[500] mb-[2rem]">
-                            Grâce aux conseils d'experts dans Serri et à nos solutions technologies, les agriculteurs peuvent s'attendre à voir des améliorations significatives dans leurs opérations agricoles.
+                            Grâce aux conseils de nos experts et à nos solutions technologies, les agriculteurs peuvent s'attendre à voir des améliorations significatives dans leurs opérations agricoles.
                         </p>
                         <div class="flex items-center">
                             <button
