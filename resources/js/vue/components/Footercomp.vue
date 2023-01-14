@@ -84,23 +84,21 @@
                         >
                             <span
                                 class="block uppercase text-slate-500 text-sm font-semibold mb-2 whitespace-nowrap"
-                                >Autres Ressources</span
+                                >Nous-contacter</span
                             >
                             <ul class="list-unstyled">
                                 <li>
                                     <a
                                         class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm whitespace-nowrap"
-                                        href="#"
-                                        target="_blank"
-                                        >Politique De Confidentialité</a
+                                        href="tel:+25377536523"
+                                        >+253 77 53 65 23</a
                                     >
                                 </li>
                                 <li>
                                     <a
                                         class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
-                                        href="#"
-                                        target="_blank"
-                                        >Nous Contacter</a
+                                        href="mailto:contact@serri.co"
+                                        >contact@serri.co</a
                                     >
                                 </li>
                             </ul>
