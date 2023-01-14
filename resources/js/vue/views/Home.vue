@@ -7,7 +7,7 @@
                         <h1
                             class="font-[900] text-[3rem] leading-[1] mb-[1rem]"
                         >
-                            Planter <br/>
+                            Planter <br />
                             <span class="text-[#39b54a]">En Securité</span>
                         </h1>
                         <p class="font-[500] mb-[2rem]">
@@ -308,7 +308,7 @@
                                 <p
                                     class="mt-1 text-sm text-slate-400 uppercase font-semibold"
                                 >
-                                Chef de projet
+                                    Chef de projet
                                 </p>
                             </div>
                         </div>
@@ -340,7 +340,10 @@
             <div class="container mx-auto px-4">
                 <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
                     <div class="w-full lg:w-6/12 px-4">
-                        <form action="" method="post" @submit.prevent="sendMessage"
+                        <form
+                            action=""
+                            method="post"
+                            @submit.prevent="sendMessage"
                             class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-slate-200"
                         >
                             <div class="flex-auto p-5 lg:p-10">
@@ -353,44 +356,39 @@
                                     Remplissez ce formulaire et nous vous
                                     répondrons dans les 24 heures.
                                 </p>
-                                <div class="relative w-full mb-3 mt-8">
-                                    <label
-                                        class="block uppercase text-slate-600 text-xs font-bold mb-2"
-                                        for="full-name"
-                                        >Nom complet</label
-                                    ><input
-                                        type="text"
-                                        id="full-name"
-                                        class="border-0 px-3 py-3 placeholder-slate-300 text-slate-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                                        required
-                                        placeholder="Nom complet"
-                                    />
-                                </div>
-                                <div class="relative w-full mb-3">
-                                    <label
-                                        class="block uppercase text-slate-600 text-xs font-bold mb-2"
-                                        for="title"
-                                        >L'objet de votre projet</label
-                                    ><input
-                                        type="text"
-                                        id="title"
-                                        class="border-0 px-3 py-3 placeholder-slate-300 text-slate-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                                        required
-                                        placeholder="Quelle est votre projet? ex: installation des flotteurs"
-                                    />
-                                </div>
-                                <div class="relative w-full mb-3">
-                                    <label
-                                        class="block uppercase text-slate-600 text-xs font-bold mb-2"
-                                        for="email"
-                                        >Votre courrier électronique</label
-                                    ><input
-                                        type="email"
-                                        class="border-0 px-3 py-3 placeholder-slate-300 text-slate-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                                        required
-                                        placeholder="Quelle est le courrier à utiliser pour vous donner retour?"
-                                    />
-                                </div>
+                                <input-comp
+                                    type="text"
+                                    label="fullname"
+                                    label_txt="Nom complet"
+                                    placeholder="Votre prénom et votre nom"
+                                    icon="user"
+                                    v-model="formData.fullname"
+                                    :error="error.fullname"
+                                    required
+                                />
+
+                                <input-comp
+                                    type="text"
+                                    label="title"
+                                    label_txt="Objet du projet"
+                                    placeholder="Quelle est votre projet? ex: installation des flotteurs"
+                                    icon="user"
+                                    v-model="formData.title"
+                                    :error="error.title"
+                                    required
+                                />
+
+                                <input-comp
+                                    type="email"
+                                    label="email"
+                                    label_txt="Courrier électronique"
+                                    placeholder="Quelle est le courrier à utiliser pour vous donner retour?"
+                                    icon="user"
+                                    v-model="formData.email"
+                                    :error="error.email"
+                                    required
+                                />
+
                                 <div class="relative w-full mb-3">
                                     <label
                                         class="block uppercase text-slate-600 text-xs font-bold mb-2"
@@ -399,11 +397,13 @@
                                     ><textarea
                                         rows="4"
                                         cols="80"
-                                        class="border-0 px-3 py-3 placeholder-slate-300 text-slate-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
+                                        class="border-0 px-3 py-3 placeholder-slate-300 text-slate-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full resize-none"
                                         required
+                                    v-model="formData.message"
                                         placeholder="Parlez-nous un peu sur votre projet?"
                                     ></textarea>
                                 </div>
+                                
                                 <div class="text-center mt-6">
                                     <button
                                         class="bg-green-800 text-white active:bg-green-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
@@ -421,14 +421,25 @@
     </div>
 </template>
 <script>
+import InputComp from "../components/Inputcomp.vue";
 export default {
     name: "home",
+    components: { InputComp },
     data() {
         return {
             formData: {
-                
-            }
-        }
+                fullname: "",
+                title: "",
+                email: "",
+                message: ""
+            },
+            error: {
+                fullname: "",
+                title: "",
+                email: "",
+                message: ""
+            },
+        };
     },
 };
 </script>
