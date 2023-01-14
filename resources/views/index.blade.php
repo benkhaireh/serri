@@ -11,13 +11,13 @@
     <title>Serri - Découvrez l'avenir de l'agriculture grâce à nos solutions agrotechniques innovantes.</title>
 
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://project.hypercube.dj/">
+    <meta property="og:url" content="https://www.serri.co">
     <meta property="og:title" content="Serri - Découvrez l'avenir de l'agriculture grâce à nos solutions agrotechniques innovantes.">
     <meta property="og:description" content="Efficacité et durabilité à portée de main grâce à nos solutions agrotechniques avancées.">
     <meta property="og:image" content="">
 
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://project.hypercube.dj/">
+    <meta property="twitter:url" content="https://www.serri.co">
     <meta property="twitter:title" content="Serri - Automatise votre ferme en inventant l'agriculture de demain">
     <meta property="twitter:description" content="Efficacité et durabilité à portée de main grâce à nos solutions agrotechniques avancées.">
     <meta property="twitter:image" content="">
