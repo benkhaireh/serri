@@ -7,7 +7,7 @@
                         <h1
                             class="font-[900] text-[3rem] leading-[1] mb-[1rem]"
                         >
-                            Planter
+                            Planter <br/>
                             <span class="text-[#39b54a]">En Securité</span>
                         </h1>
                         <p class="font-[500] mb-[2rem]">
@@ -169,7 +169,7 @@
                             bénéfices tout en réduisant leur impact
                             environnemental.
                         </p>
-                        <ul class="list-none mt-6">
+                        <ul class="list-none my-6">
                             <li class="py-2">
                                 <div class="flex items-center">
                                     <div>
@@ -235,7 +235,7 @@
         </section>
         <section class="pb-20 relative block bg-green-800">
             <div
-                class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-16"
+                class="bottom-auto top-0 left-0 right-0 hidden md:block w-full absolute pointer-events-none overflow-hidden -mt-16"
                 style="height: 80px"
             >
                 <svg
@@ -253,7 +253,7 @@
                     ></polygon>
                 </svg>
             </div>
-            <div class="container mx-auto px-4 lg:pt-24 lg:pb-64">
+            <div class="container mx-auto px-4 pt-14 lg:pt-24 lg:pb-64">
                 <div class="flex flex-wrap text-center justify-center">
                     <div class="w-full lg:w-6/12 px-4">
                         <h2 class="text-4xl font-semibold text-white">
@@ -308,7 +308,7 @@
                                 <p
                                     class="mt-1 text-sm text-slate-400 uppercase font-semibold"
                                 >
-                                    Project Manager
+                                Chef de projet
                                 </p>
                             </div>
                         </div>
@@ -340,7 +340,7 @@
             <div class="container mx-auto px-4">
                 <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
                     <div class="w-full lg:w-6/12 px-4">
-                        <div
+                        <form action="" method="post" @submit.prevent="sendMessage"
                             class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-slate-200"
                         >
                             <div class="flex-auto p-5 lg:p-10">
@@ -360,43 +360,60 @@
                                         >Nom complet</label
                                     ><input
                                         type="text"
+                                        id="full-name"
                                         class="border-0 px-3 py-3 placeholder-slate-300 text-slate-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                                        required
                                         placeholder="Nom complet"
                                     />
                                 </div>
                                 <div class="relative w-full mb-3">
                                     <label
                                         class="block uppercase text-slate-600 text-xs font-bold mb-2"
+                                        for="title"
+                                        >L'objet de votre projet</label
+                                    ><input
+                                        type="text"
+                                        id="title"
+                                        class="border-0 px-3 py-3 placeholder-slate-300 text-slate-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
+                                        required
+                                        placeholder="Quelle est votre projet? ex: installation des flotteurs"
+                                    />
+                                </div>
+                                <div class="relative w-full mb-3">
+                                    <label
+                                        class="block uppercase text-slate-600 text-xs font-bold mb-2"
                                         for="email"
-                                        >Courrier électronique</label
+                                        >Votre courrier électronique</label
                                     ><input
                                         type="email"
                                         class="border-0 px-3 py-3 placeholder-slate-300 text-slate-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                                        placeholder="Courrier électronique"
+                                        required
+                                        placeholder="Quelle est le courrier à utiliser pour vous donner retour?"
                                     />
                                 </div>
                                 <div class="relative w-full mb-3">
                                     <label
                                         class="block uppercase text-slate-600 text-xs font-bold mb-2"
                                         for="message"
-                                        >Votre message</label
+                                        >Décrivez votre projet</label
                                     ><textarea
                                         rows="4"
                                         cols="80"
                                         class="border-0 px-3 py-3 placeholder-slate-300 text-slate-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                                        placeholder="Tapez votre message..."
+                                        required
+                                        placeholder="Parlez-nous un peu sur votre projet?"
                                     ></textarea>
                                 </div>
                                 <div class="text-center mt-6">
                                     <button
                                         class="bg-green-800 text-white active:bg-green-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
-                                        type="button"
+                                        type="submit"
                                     >
                                         Envoyer le message
                                     </button>
                                 </div>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -406,5 +423,12 @@
 <script>
 export default {
     name: "home",
+    data() {
+        return {
+            formData: {
+                
+            }
+        }
+    },
 };
 </script>
