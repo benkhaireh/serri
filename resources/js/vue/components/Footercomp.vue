@@ -47,7 +47,7 @@
                                 class="ri-linkedin-fill bg-white text-blue-600 shadow-lg font-lg px-3 py-2 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"
                             ></i></a
                         ><a
-                            href="https://www.api.whatsapp.com/send?phone=25377536523&message='Bonjour, je voudrais avoir plus détails sur vos services?'"
+                            href="https://api.whatsapp.com/send?phone=25377536523"
                             target="_blank"
                             ><i
                                 class="ri-whatsapp-fill bg-white text-green-600 shadow-lg font-lg px-3 py-2 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"
