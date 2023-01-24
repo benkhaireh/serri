@@ -29,16 +29,23 @@
                     </h5>
                     <div class="mt-6">
                         <a
-                            href="#"
+                            href="https://www.twitter.com/serriculture"
                             target="_blank"
                             ><i
                                 class="ri-twitter-fill bg-white text-sky-400 shadow-lg font-lg px-3 py-2 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"
                             ></i></a
                         ><a
-                            href="#"
+                            href="https://www.facebook.com/SerriDjib"
                             target="_blank"
                             ><i
                                 class="ri-facebook-box-fill bg-white text-sky-600 shadow-lg font-lg px-3 py-2 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"
+                            ></i></a
+                        >
+                        <a
+                            href="https://www.linkedin.com/company/serri-sarl/"
+                            target="_blank"
+                            ><i
+                                class="ri-linkedin-fill bg-white text-sky-600 shadow-lg font-lg px-3 py-2 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"
                             ></i></a
                         >
                     </div>
@@ -91,7 +98,7 @@
                                     <a
                                         class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm whitespace-nowrap"
                                         href="tel:+25377536523"
-                                        >+253 77 53 65 23</a
+                                        >+253 77 536-523</a
                                     >
                                 </li>
                                 <li>

@@ -369,12 +369,12 @@
 
                                 <input-comp
                                     type="text"
-                                    label="title"
+                                    label="object"
                                     label_txt="Objet du projet"
                                     placeholder="Quelle est votre projet? ex: installation des flotteurs"
                                     icon="user"
-                                    v-model="formData.title"
-                                    :error="error.title"
+                                    v-model="formData.object"
+                                    :error="error.object"
                                     required
                                 />
 
@@ -399,11 +399,11 @@
                                         cols="80"
                                         class="border-0 px-3 py-3 placeholder-slate-300 text-slate-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full resize-none"
                                         required
-                                    v-model="formData.message"
+                                        v-model="formData.message"
                                         placeholder="Parlez-nous un peu sur votre projet?"
                                     ></textarea>
                                 </div>
-                                
+
                                 <div class="text-center mt-6">
                                     <button
                                         class="bg-green-800 text-white active:bg-green-600 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
@@ -427,19 +427,69 @@ export default {
     components: { InputComp },
     data() {
         return {
+            loader: false,
             formData: {
                 fullname: "",
-                title: "",
+                object: "",
                 email: "",
-                message: ""
+                message: "",
             },
             error: {
                 fullname: "",
-                title: "",
+                object: "",
                 email: "",
-                message: ""
+                message: "",
             },
         };
+    },
+    methods: {
+        sendMessage: function () {
+            this.loader = true;
+            const header = {
+                credentials: "same-origin",
+                headers: {
+                    "Content-Type": "application/json",
+                    "X-CSRF-TOKEN": this.csrf_token,
+                },
+            };
+
+            const body = JSON.stringify(this.formData);
+
+            const getting = async () => {
+                let data = await axios
+                    .post("/send/message/", body, header)
+                    .then((response) => {
+                        return response.data;
+                    })
+                    .catch(function (error) {
+                        if (error.response) {
+                            console.error(error.response);
+                        }
+                    });
+                if (data.code == "CREDENTIALS") {
+                    this.$emit("alert", true);
+                    this.$emit("altType", "error");
+                    this.$emit("altTxt", data.message);
+                } else if(data.code == "NOT_SENDED") {
+                    this.$emit("alert", true);
+                    this.$emit("altType", "error");
+                    this.$emit("altTxt", data.message);
+                } else if(data.code == "SUCCESS") {
+                    this.$emit("alert", true);
+                    this.$emit("altType", "success");
+                    this.$emit("altTxt", data.message);
+                } else {
+                    this.$emit("alert", true);
+                    this.$emit("altType", "error");
+                    this.$emit("altTxt", "Erreur imprévu, veuillez réessayer s'il vous plaît.");
+                }
+            };
+
+            setTimeout(() => {
+                this.loader = false;
+            }, 30000);
+            getting();
+        },
     },
 };
 </script>
