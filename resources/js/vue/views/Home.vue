@@ -97,7 +97,7 @@
                                         </h6>
                                         <p class="mb-4 text-blueGray-500">
                                             Pour automatiser le remplissage
-                                            automatique du réservoi
+                                            automatique d'un réservoi
                                             d'irrigation, Serri met en place des
                                             flotteurs
                                         </p>
@@ -290,7 +290,7 @@
                         <div class="px-6">
                             <img
                                 alt="..."
-                                src="https://avataaars.io/?avatarStyle=Transparent&topType=LongHairStraight&accessoriesType=Blank&hairColor=BrownDark&facialHairType=Blank&clotheType=BlazerShirt&eyeType=Default&eyebrowType=Default&mouthType=Default&skinColor=Light"
+                                src="https://avataaars.io/?avatarStyle=Transparent&topType=Hijab&accessoriesType=Blank&hatColor=PastelGreen&clotheType=ShirtVNeck&clotheColor=White&eyeType=Happy&eyebrowType=RaisedExcited&mouthType=Default&skinColor=Brown"
                                 class="shadow-lg rounded-full max-w-full mx-auto"
                                 style="max-width: 120px"
                             />
