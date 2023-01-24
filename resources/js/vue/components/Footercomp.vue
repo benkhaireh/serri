@@ -24,8 +24,8 @@
                 <div class="w-full md:w-6/12 px-4">
                     <h4 class="text-3xl font-semibold">Restons en contact !</h4>
                     <h5 class="text-lg mt-0 mb-2 text-slate-600">
-                        Trouvez-nous sur l'une de ces plateformes, nous répondons à 1-2
-                        jours ouvrables.
+                        Trouvez-nous sur l'une de ces plateformes, nous
+                        répondons à 1-2 jours ouvrables.
                     </h5>
                     <div class="mt-6">
                         <a
@@ -38,16 +38,21 @@
                             href="https://www.facebook.com/SerriDjib"
                             target="_blank"
                             ><i
-                                class="ri-facebook-box-fill bg-white text-sky-600 shadow-lg font-lg px-3 py-2 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"
+                                class="ri-facebook-box-fill bg-white text-blue-600 shadow-lg font-lg px-3 py-2 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"
                             ></i></a
-                        >
-                        <a
+                        ><a
                             href="https://www.linkedin.com/company/serri-sarl/"
                             target="_blank"
                             ><i
-                                class="ri-linkedin-fill bg-white text-sky-600 shadow-lg font-lg px-3 py-2 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"
+                                class="ri-linkedin-fill bg-white text-blue-600 shadow-lg font-lg px-3 py-2 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"
                             ></i></a
-                        >
+                        ><a
+                            href="https://www.api.whatsapp.com/send?phone=25377536523&message='Bonjour, je voudrais avoir plus détails sur vos services?'"
+                            target="_blank"
+                            ><i
+                                class="ri-whatsapp-fill bg-white text-green-600 shadow-lg font-lg px-3 py-2 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-block text-center"
+                            ></i
+                        ></a>
                     </div>
                 </div>
                 <div class="w-full md:w-6/12 px-4">
@@ -119,7 +124,7 @@
             >
                 <div class="w-full md:w-4/12 px-4 mx-auto text-center">
                     <div class="text-sm text-slate-500 font-semibold py-1">
-                        Copyright © 2023 SERRI                    
+                        Copyright © 2023 SERRI
                     </div>
                 </div>
             </div>
