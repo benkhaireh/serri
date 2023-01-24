@@ -89,6 +89,14 @@
                                         >Nos Produits</a
                                     >
                                 </li>
+                                <li>
+                                    <a
+                                        class="text-slate-600 hover:text-slate-800 font-semibold block pb-2 text-sm"
+                                        href="/flyer_serri.co.pdf"
+                                        target="_blank"
+                                        >Notre Flyer</a
+                                    >
+                                </li>
                             </ul>
                         </div>
                         <div

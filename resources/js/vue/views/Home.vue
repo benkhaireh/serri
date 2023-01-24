@@ -120,7 +120,7 @@
                                         <p class="mb-4 text-blueGray-500">
                                             Serri installe des Kits d'irrigation
                                             automatique complète sur mesure de
-                                            50m2 ,100m2 à 200m2.
+                                            50m2 ,100m2, et 200m2.
                                         </p>
                                     </div>
                                 </div>
@@ -336,7 +336,7 @@
                             />
                             <div class="pt-6 text-center">
                                 <h5 class="text-xl font-bold text-slate-200">
-                                    Saredo D. Guirreh 
+                                    Saredo D. Guirreh
                                 </h5>
                                 <p
                                     class="mt-1 text-sm text-slate-400 uppercase font-semibold"
@@ -435,9 +435,10 @@
 </template>
 <script>
 import InputComp from "../components/Inputcomp.vue";
+import QuoteComp from "../components/Quotecomp.vue";
 export default {
     name: "home",
-    components: { InputComp },
+    components: { InputComp, QuoteComp },
     data() {
         return {
             loader: false,
@@ -483,18 +484,21 @@ export default {
                     this.$emit("alert", true);
                     this.$emit("altType", "error");
                     this.$emit("altTxt", data.message);
-                } else if(data.code == "NOT_SENDED") {
+                } else if (data.code == "NOT_SENDED") {
                     this.$emit("alert", true);
                     this.$emit("altType", "error");
                     this.$emit("altTxt", data.message);
-                } else if(data.code == "SUCCESS") {
+                } else if (data.code == "SUCCESS") {
                     this.$emit("alert", true);
                     this.$emit("altType", "success");
                     this.$emit("altTxt", data.message);
                 } else {
                     this.$emit("alert", true);
                     this.$emit("altType", "error");
-                    this.$emit("altTxt", "Erreur imprévu, veuillez réessayer s'il vous plaît.");
+                    this.$emit(
+                        "altTxt",
+                        "Erreur imprévu, veuillez réessayer s'il vous plaît."
+                    );
                 }
             };
 

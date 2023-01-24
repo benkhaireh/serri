@@ -22,11 +22,28 @@
     <meta property="twitter:description" content="Efficacité et durabilité à portée de main grâce à nos solutions agrotechniques avancées.">
     <meta property="twitter:image" content="">
 
+    <link rel="stylesheet" href="/css/default.css">
+
     @vite('resources/js/app.js')
 </head>
 
 <body class="bg-slate-100">
+    <div class="fixed top-0 left-0 right-0 bottom-0 bg-white z-30" id="loader">
+        <div class="relative h-screen">
+            <div class="flex items-center justify-center ringer">
+                <img src="/imgs/favicon.png" alt="" width="60px" height="90px">
+                <span></span>
+            </div>
+        </div>
+    </div>
     <div id="app"></div>
+    <script>
+        window.addEventListener('load', (event) => {
+
+            document.querySelector('#loader').style.display = "none";
+
+        });
+    </script>
 </body>
 
 </html>
