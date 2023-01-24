@@ -47,7 +47,7 @@
             <div class="container mx-auto">
                 <div class="flex flex-wrap items-center">
                     <div
-                        class="w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32"
+                        class="hidden md:block w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto -mt-32"
                     >
                         <div
                             class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-emerald-500"
@@ -68,7 +68,7 @@
                                             class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
                                         >
                                             <i
-                                                class="ri-tools-fill text-3xl"
+                                                class="ri-grid-fill text-3xl"
                                             ></i>
                                         </div>
                                         <h6 class="text-xl mb-1 font-semibold">
@@ -89,7 +89,7 @@
                                             class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
                                         >
                                             <i
-                                                class="ri-drop-line text-3xl"
+                                                class="ri-history-fill text-3xl"
                                             ></i>
                                         </div>
                                         <h6 class="text-xl mb-1 font-semibold">
@@ -111,7 +111,7 @@
                                             class="text-blueGray-500 p-3 text-center inline-flex items-center justify-center w-12 h-12 mb-5 shadow-lg rounded-full bg-white"
                                         >
                                             <i
-                                                class="ri-refresh-line text-3xl"
+                                                class="ri-drop-fill text-3xl"
                                             ></i>
                                         </div>
                                         <h6 class="text-xl mb-1 font-semibold">
@@ -144,6 +144,19 @@
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                    </div>
+                    <div
+                        class="block md:hidden w-10/12 md:w-6/12 lg:w-4/12 px-12 md:px-4 mr-auto ml-auto mt-16"
+                    >
+                        <div
+                            class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-lg rounded-lg bg-emerald-500"
+                        >
+                            <img
+                                alt="..."
+                                src="/imgs/Modern-farming.jpg"
+                                class="w-full align-middle rounded-lg"
+                            />
                         </div>
                     </div>
                 </div>
@@ -224,7 +237,7 @@
                         </ul>
                     </div>
                 </div>
-                <div class="w-full md:w-4/12 mx-auto px-4">
+                <div class="w-full md:w-4/12 mx-auto px-4 mt-20 md:mt-0">
                     <img
                         alt="..."
                         class="max-w-full rounded-lg shadow-lg"
@@ -323,7 +336,7 @@
                             />
                             <div class="pt-6 text-center">
                                 <h5 class="text-xl font-bold text-slate-200">
-                                    Saredo
+                                    Saredo D. Guirreh 
                                 </h5>
                                 <p
                                     class="mt-1 text-sm text-slate-400 uppercase font-semibold"
