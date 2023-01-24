@@ -30,17 +30,17 @@ class EmailSenderController extends Controller
         $message = $request->message;
 
         if ($credentials->passes()) {
-            $mail = $emailsender->create([
+            /* $mail = $emailsender->create([
                 'fullname' => $fullname,
                 'email' => $email,
                 'email' => $email,
                 'object' => $object,
                 'message' => $message,
-            ]);
+            ]); */
 
             Mail::send(new SendMessage($fullname, $email, $object, $message));
 
-            return response()->json(['success' => true, 'info' => "Message envoyé avec succès. Merci."]);
+            return response()->json(['code' => "SUCCESS", 'message' => "Message envoyé avec succès. Merci."]);
         }
 
         return response()->json(['code' => 'CREDENTIALS', 'message' => $credentials->errors()]);

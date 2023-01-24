@@ -431,6 +431,20 @@
                 </div>
             </div>
         </section>
+
+        <section>
+            <div
+                class="fixed top-0 left-0 right-0 bottom-0 bg-white z-30"
+                v-if="mainLoader"
+            >
+                <div class="relative h-screen" id="loader">
+                    <div class="flex items-center justify-center ringer">
+                        <img src="/imgs/favicon.png" alt="" class="w-[60px] h-[90px]">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 <script>
@@ -454,6 +468,7 @@ export default {
                 email: "",
                 message: "",
             },
+            mainLoader: false,
         };
     },
     methods: {
